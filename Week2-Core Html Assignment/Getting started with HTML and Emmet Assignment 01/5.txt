@@ -1,7 +1,0 @@
-5. What is emmet? List some of the advantages emmet offers?
-Ans
-	Emmet is a free add-on for your text editor.
-Advantage of emmet:-    Saves a lot of time.
-    			Increase productivity.
-    			Efficient Programming.
-    			Allows to type shortcuts that are then expanded into full pieces of code after auto suggestive letter pops up.
