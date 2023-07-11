@@ -1,0 +1,9 @@
+4.List any 3 ways which help us in improving the accessibility of HTMLE.
+
+Ans.
+
+1. Alternative Text for Images: Providing appropriate alternative text (alt text) for images using the alt attribute allows screen readers to read out the description of the image, making it accessible for visually impaired users.
+
+2. Semantic HTML: Using semantic HTML tags like <header>, <nav>, <main>, <footer>, and <article> helps in structuring the content of the webpage in a more meaningful way. This improves accessibility as screen readers and assistive technologies can better understand and navigate the content.
+
+3. Keyboard Accessibility: Ensuring that all elements on the webpage can be accessed, navigated, and interacted with using only the keyboard is crucial for accessibility. Properly configuring the tabindex attribute, focusing on links and buttons, allowing keyboard access to form fields and providing clear focus indicators help users who rely on keyboard navigation.

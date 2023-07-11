@@ -1,0 +1,5 @@
+7. What are the benefits of using semantic tags in our webpage.
+
+Ans.
+
+Improved SEO: Semantic tags provide better structure and meaning to the content, making it easier for search engines to understand the purpose and relevance of different sections. This can positively impact search engine rankings and increase organic traffic to your website.

@@ -1,0 +1,21 @@
+3. What is web accessibility? List some of the assistive devices which play a major role in providing
+accessibility.
+
+Ans.
+
+Web accessibility refers to the practice of designing and developing websites and web content in a way that ensures equal access and usability for all users, regardless of their abilities or disabilities. It aims to remove barriers that may prevent individuals with disabilities from accessing and interacting with online information and services.
+Some major assistive devices that play a role in providing accessibility include:
+
+1. Screen Readers: Screen readers are software programs that convert on-screen content into synthesized speech or braille output. They enable visually impaired users to navigate and interact with websites by reading aloud the content and providing alternative text for images.
+
+2. Screen Magnifiers: Screen magnifiers enlarge the content displayed on the screen, making it easier for people with visual impairments to read and view the website. Users can adjust the magnification level based on their needs.
+
+3. Braille Displays: Braille displays are hardware devices that convert on-screen text into braille characters, allowing individuals who are blind or visually impaired to read website content through touch.
+
+4. Voice Recognition Software: Voice recognition software enables users to control and navigate websites by speaking voice commands. It is particularly useful for individuals with mobility impairments who may have difficulty using a keyboard or mouse.
+
+5. Keyboard-only Navigation: Assistive devices such as alternative keyboards or specialized input devices allow users with mobility impairments to navigate and interact with websites using only a keyboard, as opposed to a traditional mouse.
+
+6. Captioning and Transcription Tools: Captions and transcriptions are essential for individuals with hearing impairments. These tools provide text-based versions of audio content, allowing users to follow along and understand the information presented in videos or audio recordings.
+
+It is important to create web content that is accessible to these assistive devices and to follow web accessibility guidelines to ensure inclusive and equal access for all users.

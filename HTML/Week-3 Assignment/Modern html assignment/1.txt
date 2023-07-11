@@ -1,0 +1,12 @@
+1. List out the featurs of HTML 5.
+Ans. 
+	Semantic Elements
+	Audio and Video Support
+	Canvas Elements
+	Geolocation API
+	Local Storage
+	Web Workers
+	Drag and Drop API
+	Form Enhancements
+	Micro Data
+	Web Sockets
