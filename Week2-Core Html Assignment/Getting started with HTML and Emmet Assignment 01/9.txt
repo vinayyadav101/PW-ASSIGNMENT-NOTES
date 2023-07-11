@@ -1,0 +1,4 @@
+9. What are self-closing tags? Write a brief note on meta tags.
+Ans
+   A self-closing tag in HTML is a kind of HTML tag that does not need to be closed manually by its closing tag, which means it does not have a separate closing tag as </tag>. Some few self-closing tags are <input/>, <hr/>, <br/>, <img/>, etc.
+Meta tags are one of the main channels that a website has to communicate with search engine robots — those responsible for crawling the content of the pages to be indexed. Meta tags are used to indicate to search engines whether a page should be indexed or not, and adds additional information about its content.
