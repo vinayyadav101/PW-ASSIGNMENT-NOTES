@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+       body{
+        text-align: center;
+        position: relative;
+       }
+       .card{
+        position: absolute;
+        border: 2px black solid;
+        text-align: center;
+        height: 300px;
+        width: 200px;
+        font-family: 'Victor Mono', monospace;
+        border-radius: 6px;
+        margin: 10px;
+       }
+       .card:hover{
+        z-index: 1;
+       }
+       img{
+        text-align: center;
+        height: 200px;
+        width: 100px;
+        background-color: white;
+
+       }
+       .card-1{
+        background-color: blue;
+       }
+       .card-2{
+        margin-top: 80px;
+        left: 50px;
+        background-color: yellow;
+       }
+       .card-3{
+        margin-top: 160px;
+        left: 100px;
+        background-color: green;
+       }
+    </style>
+</head>
+<body>
+    <h1>Hover To Unveil The Pokemon</h1>
+    <div class="card card-1">
+        <h1>Bulbarsaur</h1>
+        <img src="bulbarsaur.png" alt="bulbarsaur">
+    </div>
+    <div class="card card-2">
+        <h1>Charmander</h1>
+        <img src="Charmander.webp" alt="charmander">
+    </div>
+    <div class="card card-3">
+        <h1>Pikachu</h1>
+        <img src="pikachu.jpg" alt="pikachu">
+    </div>
+</body>
+</html>
