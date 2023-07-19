@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        body{
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 25%;
+            align-items: center;
+            justify-content: center;
+            height: 90vh;
+
+        }
+        .google-s-logo{
+            display: flex;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 100px;
+            color: white;
+            margin-bottom: 20px;
+            width: 100%;
+            
+        }
+        .rotation{
+            transform: rotate(-20deg);
+        }
+        p{
+            letter-spacing: -7px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .search-bar{
+            display: flex;
+            justify-content: flex-start;
+            border: 2px solid #6d6969;
+            width: 100%;
+            padding: 10px;
+            border-radius: 50px;
+            gap: 10px;
+            align-items: center;
+
+        }
+        .material-symbols-outlined{
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48;
+                color: #d3d3d3;
+        }
+        .text{
+            width: 90%;
+            height: 100%;
+            font-size: 20px;
+            padding: 0;
+            background-color: black;
+            border: none;
+            outline: none;
+            color: white;            
+        }
+        .search-bar > img {
+            width: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="google-s-logo">
+        <p>Googl</p><p class="rotation">e</p>
+        </div>
+    <div class="search-bar">
+        <span class="material-symbols-outlined">
+            search
+            </span>
+            <input type="text" class="text">
+            <img src="mic.png" alt="mic">
+            <img src="img.png" alt="image">
+    </div>
+    </div>
+</body>
+</html>

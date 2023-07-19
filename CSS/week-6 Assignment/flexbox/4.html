@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        body{
+            margin: 0;
+        }
+        header{
+            
+            box-shadow: 0 2px 6px 0 rgba(0,0,0,.12),inset 0 -1px 0 0 #dadce0;
+            padding: 5px 50px;
+            
+        }
+        .nev-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .gmail-logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .gmail-logo > img{
+            height: 30px;
+            width: 30px;
+        }
+        .button{
+            height: 40px;
+            display: flex;
+            gap: 20px;
+            
+        }
+        .button-1{
+            padding: 10px 20px;
+            border: none;
+            background-color: white;
+            color: blue;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        .button-2{
+            padding: 10px 20px;
+            background-color: white;
+            border: 0.5px black solid;
+            border-radius: 4px;
+            font-size: 15px;
+        }
+        .button-3{
+            border-radius: 4px;
+            padding: 10px 20px;
+            background-color: blue;
+            border: none;
+            color: white;
+            font-size: 15px;
+        }
+        .main-container{
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+            justify-items: center;
+            padding: 5px 50px;
+        }
+        .sub-section-1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+        .sub-section-2{
+            justify-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .sub-section-2 > img {
+            width: 100%;
+        }
+        .sub-section-1 > h1 {
+            font-size: 50px;
+            font-family: 'Inter', sans-serif;
+            margin-bottom: 36px;
+        }
+        .sub-section-1 > p {
+            font-family: 'Inter', sans-serif;
+            color: #979595;
+        }
+        .button-3:hover{
+            background-color: darkblue;
+            cursor: pointer;
+        }
+        .button-1:hover{
+            background-color: #eeecec;
+            cursor: pointer;
+        }
+        .button-2:hover{
+            background-color: #eeecec;
+            cursor: pointer;
+        }
+        .sub-section-1 > div{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nev-bar">
+            <div class="gmail-logo">
+                <img src="Gmail_logo_PNG9.png" alt="gmail-logo">
+                <p>Gmail</p>
+            </div>
+            <div class="button">
+                <button class="button-1">For work</button>
+                <button class="button-2">Sign in</button>
+                <button class="button-3">Create an account</button>
+            </div>
+            </div>
+        </header>
+        <main class="main-container">
+            <section class="sub-section-1">
+                <h1>Secure, smart, and easy to use email</h1>
+                <p>Get more done with Gmail. Now integrated with Google Meet, and more, all in one place.</p>
+            <div>
+                <button class="button-3">Create an account</button>
+                <button class="button-1">For work</button>
+            </div>    
+            </section>
+            <section class="sub-section-2">
+                <img src="unnamed.webp" alt="Gmail inbox screen with enlarged function icons">
+            </section>
+        </main>
+    </div>
+</body>
+</html>

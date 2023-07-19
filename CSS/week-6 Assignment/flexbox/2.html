@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+        body{
+            background-color: #b27fe2;
+        }
+        .intro{
+            text-align: center;
+            margin: 10px;
+        }
+        .intro > h1{
+            color: #202092;
+            margin: 5px;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .intro > p{
+            margin: 0;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            margin-top: 100px;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card{
+            background-color: white;
+            max-width: 300px;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        img{
+            width: 100%;
+        }
+        .cours-detail{
+            font-weight: bold;
+            color: blue;
+            font-family: 'Victor Mono', monospace;
+        }
+        .name{
+            font-size: medium;
+            font-weight: lighter;
+        }
+        .free{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Community Programs</h1>
+        <p>Open to all pro-live classes on Youtube for free.</p>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <img src="hitesh choudhary.jpg" alt="class1">
+            <p class="cours-detail">Masterclass Understanding APIs in Web Development with RoadMap</p>
+            <p class="name">Hitesh Choudhary</p>
+            <p class="free">FREE</p>
+        </div>
+        <div class="card">
+            <img src="vishwa mohan.jpg" alt="class2">
+            <p class="cours-detail">Masterclass Cracking The Coding Interview LinkedList</p>
+            <p class="name">Vishwa Mohan</p>
+            <p class="free">FREE</p>
+        </div>
+        <div class="card">
+            <img src="priya bhatia.jpg" alt="class3">
+            <p class="cours-detail">MasterClass Important of DSA in Modern Programming</p>
+            <p class="name">Priya Bhatia</p>
+            <p class="free">FREE</p>
+        </div>
+    </div>
+</body>
+</html>
