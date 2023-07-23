@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            align-items: center;
+            border: 2px black solid;
+            padding: 10px;
+            background-color: blue;
+            
+        }
+        div > div{
+            border: dotted 2px black;
+            background-color: lightskyblue;
+        }
+        .Chemistry-lab{
+            grid-column: 7/9;
+            padding: 15px 2px;
+            background-color: #a7a5a5;
+        }
+        .Physics-lab{
+            grid-column: 7/9;
+            padding: 15px 2px;
+            background-color: #a7a5a5;
+        }
+        .Biology-lab{
+            grid-column: 2/4;
+            padding: 15px 2px;
+            background-color: #a7a5a5;
+        }
+        .pt{
+            grid-column: 7/9;
+            padding: 15px 2px;
+            background-color: green;
+        }
+        .Time{
+            padding: 30px 2px;
+            background-color: red;
+        }
+        .days{
+            padding: 15px 2px;
+            background-color: purple;
+        }
+        .subject{
+            padding: 15px 2px;
+        }
+        .lunch{
+            padding: 15px 2px;
+            border: 0px;
+            background-color: yellow;
+            border: 2px solid yellow;
+        }
+        .Break{
+            border-bottom: dotted 2px black;
+            border-right: none;
+            border-top: solid yellow;
+            border-left: none;
+            padding: 15px 2px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>School Timetable</h1>
+        <div class="container">
+            <div class="Time">Time</div>
+            <div class="Time">08:00 AM - 09:00 AM</div>
+            <div class="Time">09:00 AM - 10:00 AM</div>
+            <div class="Time">10:00 AM - 11:00 AM</div>
+            <div class="Time">11:00 AM - 12:00 AM</div>
+            <div class="Time">12:00 AM - 02:00 AM</div>
+            <div class="Time">02:00 AM - 03:00 AM</div>
+            <div class="Time">03:00 AM - 04:00 AM</div>
+            <div class="days">Monday</div>
+            <div class="subject">English</div>
+            <div class="subject">Biology</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="lunch">L</div>
+            <div class="Chemistry-lab">Chemistry LAB</div>
+            <div class="days">Tuesday</div>
+            <div class="Biology-lab">Biology LAB</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="lunch">U</div>
+            <div class="subject">English</div>
+            <div class="subject">Biology</div>
+            <div class="days">Wednesday</div>
+            <div class="subject">English</div>
+            <div class="subject">Biology</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="lunch">N</div>
+            <div class="pt">Games</div>
+            <div class="days">Thursday</div>
+            <div class="Biology-lab">Biology LAB</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="lunch">C</div>
+            <div class="subject">English</div>
+            <div class="subject">Biology</div>
+            <div class="days">Friday</div>
+            <div class="subject">English</div>
+            <div class="subject">Biology</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="lunch">H</div>
+            <div class="Physics-lab">Physics LAB</div>
+            <div class="days">Saturday</div>
+            <div class="Biology-lab">Biology LAB</div>
+            <div class="subject">Physics</div>
+            <div class="subject">Chemistry</div>
+            <div class="Break">Break</div>
+            <div class="pt">LET OFF</div>
+        </div>
+</body>
+</html>

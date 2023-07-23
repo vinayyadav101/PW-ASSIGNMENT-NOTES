@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        .container{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            padding: 10px;
+            gap: 15px;
+            margin: auto;
+            
+        }
+        .contant-1{
+            font-family: 'Inter', sans-serif;
+            padding: 0 30px;
+        }
+        .contant-1 > h1{
+            font-size: 40px;
+        }
+        .contant-1 > p{
+            font-size: 15px;
+            color: #686666;
+            margin-bottom: 30px;
+        }
+        .contant-1 > button{
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-size: large;
+            padding: 10px 30px; 
+        }
+        .contant-2{
+            height: 90vh;
+            background-color: yellow;
+        }
+        .contant-2 > img{
+            height: 100%;
+            width: 60%;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 1200px;
+            margin: auto;
+            align-items: center;
+            font-size: large;
+        }
+        nav > img{
+           width: 10%;
+        }
+        .link > a{
+            color: black;
+            padding: 0 20px;
+            text-decoration: none;
+        }
+        nav > button{
+            border: none;
+            border-radius: 5px;
+            background-color: #3df33d;
+            color: #000000;
+            font-size: large;
+            margin-left: 70%;
+            padding: 5px 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://www.zarla.com/images/zarla-better-basket-1x1-2400x2400-20211229-qttxft9t7g6gpywgkpvy.png?crop=1:1,smart&width=250&dpr=2" alt="logo">
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contect</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="contant-1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Perferendis eos reiciendis, quae dolore expedita eaque quia maxime laboriosam qui in. 
+                Blanditiis ratione ipsa nemo repellendus incidunt voluptatibus deleniti laboriosam exercitationem.
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="contant-2">
+            <img src="https://m.recipes.timesofindia.com/photo/88625308/88625308.jpg" alt="Food image">
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        .container{
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            padding: 10px;
+            gap: 15px;
+            margin: auto;
+            
+        }
+        .contant-1{
+            font-family: 'Inter', sans-serif;
+            padding: 0 30px;
+        }
+        .contant-1 > h1{
+            font-size: 40px;
+        }
+        .contant-1 > p{
+            font-size: 15px;
+            color: #686666;
+            margin-bottom: 30px;
+        }
+        .contant-1 > button{
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            color: #ffffff;
+            font-size: large;
+            padding: 10px 30px; 
+        }
+        .contant-2{
+            height: 90vh;
+            background-color: #ffff00;
+        }
+        .contant-2 > img{
+            height: 100%;
+            width: 60%;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            width: 1200px;
+            margin: auto;
+            align-items: center;
+            font-size: large;
+        }
+        nav > img{
+           width: 10%;
+        }
+        .link > a{
+            color: black;
+            padding: 0 20px;
+            text-decoration: none;
+        }
+        nav > button{
+            border: none;
+            border-radius: 5px;
+            background-color: #3df33d;
+            color: #000000;
+            font-size: large;
+            margin-left: 70%;
+            padding: 5px 10px;
+            
+        }
+        .container-2{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 1200px;
+            margin: auto;
+            align-items: center;
+            background-color: #2b1e16;
+            
+        }
+        .section{
+            text-align: center;
+            margin: 10px 50px;
+        }
+        .section > img{
+            width: 150px;
+        }
+        .section > h1 {
+            color: #ffffff;
+        }
+        .section > p {
+            color: #6f4e39;
+        }
+        .container-3{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 1200px;
+            margin: auto;
+            gap: 30px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .image{
+            border: 2px solid black;
+            border: none;
+            
+        }
+        .image > img{
+            width: 100%;
+            height: 60%;
+            border-radius: 30px 30px 0 0 ;
+        }
+        .image > div{
+            position: relative;
+            border: 1px black solid;
+            border-radius: 0 0 30px 30px;
+            top: -5px;
+        }
+        .text-section > h1{
+            margin: 0px 50px;
+            font-size: xx-large;
+        }
+        .text-section > p{
+            margin: 0px 50px 10px 50px;
+            font-size: 20px;
+            color: #9e9c9c;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://www.zarla.com/images/zarla-better-basket-1x1-2400x2400-20211229-qttxft9t7g6gpywgkpvy.png?crop=1:1,smart&width=250&dpr=2" alt="logo">
+        <div class="link">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contect</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="container">
+        <section class="contant-1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Perferendis eos reiciendis, quae dolore expedita eaque quia maxime laboriosam qui in. 
+                Blanditiis ratione ipsa nemo repellendus incidunt voluptatibus deleniti laboriosam exercitationem.
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="contant-2">
+            <img src="https://m.recipes.timesofindia.com/photo/88625308/88625308.jpg" alt="Food image">
+        </section>
+    </div>
+    <div class="container-2">
+        <section class="section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="min order image">
+            <h1>No Minimum Oreder</h1>
+            <p>Order in for yourself or for the group,with no restrictions on order value</p>
+        </section>
+        <section class="section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="order image">
+            <h1>Live Order Tracking</h1>
+            <p>Know where your order is at all times, form the restaurant to your doorstep</p>
+        </section>
+        <section class="section">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="delivery image">
+            <h1>Lightning-Fast Delivery</h1>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </section>
+    </div>
+    <div class="container-3">
+        <section class="image">
+            <img src="https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F2889%2Ftrend20200722152815.jpg" alt="online food image">
+            <div class="text-section">
+                <h1>Order Online</h1>
+                <p>Stay Home and order to your door step</p>
+            </div>
+        </section>
+        <section class="image">
+            <img src="https://cdn.shopify.com/s/files/1/0652/4878/8714/articles/dining_table_blog.png?v=1670327821" alt="dining table image">
+            <div class="text-section">
+                <h1>On-Site Dining</h1>
+                <p>View the City's favourite dining venues.</p>
+            </div>
+        </section>
+        <section class="image">
+            <img src="https://images.pexels.com/photos/2114365/pexels-photo-2114365.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="night club image">
+            <div class="text-section">
+                <h1>Nightlife & Clubs</h1>
+                <p>Explore the city's nightlife outlets & Book tables.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

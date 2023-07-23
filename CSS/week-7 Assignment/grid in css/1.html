@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+        .container{
+            max-width: 1200px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            padding: 10px;
+            gap: 15px;
+            margin: auto;
+            
+        }
+        .contant-1{
+            font-family: 'Inter', sans-serif;
+            padding: 0 30px;
+        }
+        .contant-1 > h1{
+            font-size: 40px;
+        }
+        .contant-1 > p{
+            font-size: 15px;
+            color: #686666;
+            margin-bottom: 30px;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-size: large;
+            padding: 10px 30px; 
+        }
+        .contant-2{
+            height: 90vh;
+            background-color: yellow;
+        }
+        .contant-2 > img{
+            height: 100%;
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="contant-1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Perferendis eos reiciendis, quae dolore expedita eaque quia maxime laboriosam qui in. 
+                Blanditiis ratione ipsa nemo repellendus incidunt voluptatibus deleniti laboriosam exercitationem.
+            </p>
+            <button>Read More</button>
+        </section>
+        <section class="contant-2">
+            <img src="https://m.recipes.timesofindia.com/photo/88625308/88625308.jpg" alt="Food image">
+        </section>
+    </div>
+</body>
+</html>
