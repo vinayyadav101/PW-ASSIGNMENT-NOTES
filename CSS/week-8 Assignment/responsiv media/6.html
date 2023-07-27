@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+    <style>
+        body {
+        padding: 0;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: black;
+        color: #8a8888;
+        padding: 50px;
+        gap: 20px;
+      }
+      .info-link{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .info-1{
+        margin-left: 40px;
+      }
+      a{
+        text-decoration: none;
+        padding: 10px;
+        color: #8a8888;
+        font-size: 20px;
+      }
+      h1{
+        color: white;
+      }
+      p{
+        margin-top: 30px;
+        word-spacing: 8px;
+      }
+      input{
+        width: 85%;
+        font-size: 15px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+      }
+      button{
+        width: 100%;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        padding: 15px 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      @media screen and (max-width: 800px) {
+        footer{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .info-1{
+            margin-left: 0;
+        }
+        input{
+            width: %;
+        }
+      }
+    </style>
+</head>
+<body>
+    <footer>
+        <div>
+            <h1>One Card</h1>
+            <p>India's best metal credit card. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user.</p>
+        </div>
+        <div class="info-link info-1">
+            <h1>Navigation</h1>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">offers</a>
+        </div>
+        <div class="info-link">
+            <h1>Support</h1>
+            <a href="#">F.A.Q</a>
+            <a href="#">Cookies Policy</a>
+            <a href="#">Terms Of Service</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="Newsletter">
+            <h1>Newsletter</h1>
+            <input type="email" name="email" placeholder="Your email id here">
+            <br>
+            <button>Subscribe</button>
+        </div>
+    </footer>
+</body>
+</html>

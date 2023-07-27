@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+        .large-screens{
+            display: none;
+        }
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48;
+          font-size: 30px;
+        }
+        .small-screens{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: auto;
+            text-align: end;
+            align-items: center;
+            font-size: large;
+            background-color: black;
+            color: white;
+            padding: 5px 20px;
+        }
+        .small-screens > img{
+           width: 50px;
+        }
+        .container{
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            font-family: 'Inter', sans-serif;
+        }
+        .contant-1{
+            padding: 20% 0px 5px 20px;
+        }
+        .contant-1 > h3{
+            font-size: 40px;
+            margin: 10px 0px;
+        }
+        .contant-1 > h2{
+            margin: 10px 0px;
+            color: #08ade4;
+            font-size: 20px;   
+        }
+        .contant-1 > p{
+            font-size: 19px;
+        }
+        .contant-1 > h1{
+            font-size: 70px;
+            margin: 10px 0px;
+            color: #08ade4;
+        }
+        .contant-1 > img{
+            width: 80%;
+        }
+        .contant-2 > video{
+            width: 90%;
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Inter', sans-serif;
+        }
+        .footer > h1{
+            color: blue;
+            font-size: 40px;
+        }
+        .footer > p{
+            font-size: 25px;
+        }
+        @media screen and (min-width: 800px){ 
+            .small-screens{
+                display: none;
+            }
+            .large-screens > button{
+            border: none;
+            border-radius: 5px;
+            background-color: #3df33d;
+            color: #000000;
+            font-size: large;
+            margin-left: 70%;
+            padding: 5px 10px;   
+        }
+        .large-screens{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: auto;
+            align-items: center;
+            font-size: large;
+            background-color: black;
+            color: white;
+            padding: 5px 20px;
+        }
+        .large-screens > img{
+           width: 50px;
+        }
+        .link > a{
+            color: white;
+            padding: 0 4.4%;
+            text-decoration: none;
+        }
+        .small-screens{
+            display: none;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            padding: 5px 20px;
+            margin: auto;
+            align-items: center;
+            gap: 50px;
+            font-family: 'Inter', sans-serif;
+        }
+        .contant-1{
+            padding: 10% 0px 5px 20px;
+        }
+        .contant-1 > h3{
+            font-size: 40px;
+            margin: 10px 0px;
+        }
+        .contant-1 > h2{
+            margin: 10px 0px;
+            color: #08ade4;
+            font-size: 20px;   
+        }
+        .contant-1 > p{
+            font-size: 19px;
+        }
+        .contant-1 > h1{
+            font-size: 70px;
+            margin: 10px 0px;
+            color: #08ade4;
+        }
+        .contant-1 > img{
+            width: 80%;
+        }
+        .contant-2 > video{
+            width: 90%;
+        }
+        .footer{
+            background-color: #000000;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            font-family: 'Inter', sans-serif;
+        }
+        .footer > h1{
+            color: blue;
+            font-size: 40px;
+        }
+        .footer > p{
+            font-size: 25px;
+        }
+        }
+        
+        
