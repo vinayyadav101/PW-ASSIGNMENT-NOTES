@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        a{
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #5f5fee;
+            padding: 20px 60px;
+            color: white;
+            font-weight: 400;
+            font-size: large;
+            animation: bounce 1s infinite alternate;
+        }
+        @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(-25%);
+          animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+          transform: translateY(0);
+          animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
+    </style>
+</head>
+<body>
+    <a href="https://codercommunity.io">Click Me To Vist PW Skills</a>
+</body>
+</html>
