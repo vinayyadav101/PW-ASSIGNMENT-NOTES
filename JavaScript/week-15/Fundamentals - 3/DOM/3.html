@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .number{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Counter</h1>
+    <input type="button" value="+" id="pluse" onclick="increase()"> <span class="countdisplay">0</span> <input type="button" value="-" id="minus" onclick="decrease()">
+    <script>
+        
+        let countdisplay = document.querySelector("span");
+        let count = 0;
+
+        function decrease() {
+            if (count === 0) {
+                alert("Counter is going beyond 0.")
+                
+            } else {
+                count--
+                countdisplay.innerHTML = count;
+            }
+        }
+
+        function increase() {
+            ++count
+            countdisplay.innerHTML = count;
+        }
+
+    </script>
+</body>
+</html>

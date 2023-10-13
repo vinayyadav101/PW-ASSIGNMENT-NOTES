@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            max-width: 30%;
+            border: 2px solid black;
+            max-height: 100%;
+            padding: 1%;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Update profile picture</h1>
+    <input type="file" name="profile" id="input-pic">
+    <h1>Your Profile Picture</h1>
+        <img src="#" alt="No profile picture" id="update-pic">
+
+        <script>
+            let inputPic = document.getElementById("input-pic");
+            let updatePic = document.getElementById("update-pic");
+            inputPic.addEventListener("change" , function(){
+                const filelist = this.files;
+               updatePic.src = URL.createObjectURL(filelist[0])
+            });
+        </script>
+</body>
+</html>
