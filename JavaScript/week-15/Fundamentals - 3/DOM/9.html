@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session Storage</title>
+  </head>
+  <body>
+    <button onclick="login()">Login</button>
+    <button onclick="logout()">Logout</button>
+
+    <h1 id="login-status"></h1>
+
+    <script>
+      function login() {
+        localStorage.setItem("auth", true);
+        window.location.reload();
+      }
+
+      function logout() {
+        localStorage.setItem("auth", false);
+        window.location.reload();
+      }
+
+      const heading = document.getElementById("login-status");
+      const loginStatus = localStorage.getItem("auth");
+      if (loginStatus != "false") {
+        heading.innerHTML = "User is logged In";
+      } else {
+        heading.innerHTML = "User Has Not logged In";
+      }
+    </script>
+  </body>
+</html>

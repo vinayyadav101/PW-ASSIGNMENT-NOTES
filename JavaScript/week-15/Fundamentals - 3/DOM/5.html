@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden{
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your image is visibal</h1>
+    <button onclick="toggle()">Toggle image</button>
+    <img src="Screenshot (1).png" class="" id="image">
+</body>
+<script>
+     function toggle() {
+            let image = document.getElementById("image");
+            let text = document.querySelector("h1");
+             if (image.classList == "") {
+                
+                image.classList.add("hidden")
+                text.innerText = 'your image is hidden'
+             } else {
+                image.classList.remove("hidden")
+                
+                text.innerText = 'your image is visibal'
+             }
+        };
+</script>
+
+</html>

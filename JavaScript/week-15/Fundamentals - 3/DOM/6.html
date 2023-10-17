@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+
+    </div>
+
+
+    <script>
+        const options = ['javaScript', 'c++', 'java', 'python'];
+
+        let main_container = document.querySelector('.main-container');
+        let hading = document.createElement("h1");
+        const span = document.createElement("span")
+        const select = document.createElement("select")
+        
+       
+        hading.innerText = "Which is faivorite Programing Language:"
+       
+        hading.appendChild(span)
+        main_container.appendChild(hading)
+        
+        span.appendChild(select);
+        
+        
+        options.map((data) => {
+            const option = document.createElement("option")
+            option.innerText = data;
+            
+            select.appendChild(option)
+         });
+
+
+        
+        
+
+
+    </script>
+</body>
+</html>
