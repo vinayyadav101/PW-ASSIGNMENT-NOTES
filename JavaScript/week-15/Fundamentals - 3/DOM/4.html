@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .input{
+            margin-bottom: 5px;
+            margin-top: 5px;
+            padding: 5px;
+        }
+        .form{
+            text-align: center;
+        }
+        .submit{
+            margin-top: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <h1>Sign Up Form</h1>
+        <label>Name:</label> <input type="text" name="Name" id="Name" class="input" placeholder="(Minimum 3 characters)"  required> <br/>
+        <label>Email:</label> <input type="email" name="Email" id="Email" class="input" placeholder="Enter your email" required > <br/>
+        <label>Password:</label> <input type="password" name="password" id="password" class="input" placeholder="(Minimum 8 character)"  required> <br/>
+        <button type="submit" class="submit" onclick="check(event)">Submit</button>
+    </form>
+    
+    <script>
+             let name = document.getElementById("Name");
+            let password = document.getElementById("password");
+            let email = document.getElementById("Email");
+            var valideemail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+        function check(event) {
+
+            event.preventDefault();
+
+            if(name.value.length >= 3){
+                if (email.value.match(valideemail)) {
+                    if(password.value.length >= 8){
+                        alert("Form Validation Successful")
+            }
+            else{
+                    alert("please enter password length more then 3")
+                }
+            }
+            else{
+                alert("please enter valide emial")
+            }
+            }
+            else{
+                alert("please enter name length more then 3")
+            }
+        }
+        
+        
+        
+       
+
+
+    </script>
+
+</body>
+</html>
