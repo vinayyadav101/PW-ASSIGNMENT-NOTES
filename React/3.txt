@@ -1,0 +1,20 @@
+app.js file code =>
+
+export function Title(props){
+  return (
+    <header>
+      <h1>
+        {props.title}
+      </h1>
+    </header>
+  )
+}
+
+index.js file code => 
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <Title title="React assignment"/>
+  </React.StrictMode>
+);

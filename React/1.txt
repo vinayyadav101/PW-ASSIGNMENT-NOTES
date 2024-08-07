@@ -1,0 +1,22 @@
+App.js file code =>
+
+export function Person(props){
+  return (
+    <div>
+      <p>
+        name:{props.name} and age:{props.age}
+      </p>
+    </div>
+  )
+}
+
+index.js file code => 
+
+const root = ReactDOM.createRoot(
+		document.getElementById('root')
+		);
+root.render(
+  <React.StrictMode>
+    <Person name="vinay" age="22" />
+  </React.StrictMode>
+);

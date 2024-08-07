@@ -1,0 +1,27 @@
+app.js file code => 
+
+export function Button(props){
+  return (
+    <div>
+      <button onClick={props.onClick}>
+        <span>{props.text}</span>
+      </button>
+    </div>
+  )
+}
+
+
+
+index.js file code =>
+
+function clickFun() {
+ 	 alert('completed task.')
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+    <Person text="click Me" onClick={clickFun} />
+  </React.StrictMode>
+);
